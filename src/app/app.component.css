@@ -1,10 +1,20 @@
 h1 {
     color: darkblue;
     text-decoration: underline;
+    font-size: 3em;
 }
 
 .background {
     background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > * {
+    flex: 1;
 }
 
 img {
@@ -12,5 +22,6 @@ img {
 }
 
 button {
-    color: aqua;
+    background-color: aqua;
+    justify-content: center;
 }

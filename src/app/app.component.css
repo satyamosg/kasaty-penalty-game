@@ -1,12 +1,17 @@
 * {
     height: 100%;
-    font-family: 'Noto Serif SC', serif;
+    /* font-family: 'Noto Serif SC', serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     color: darkblue;
     text-decoration: underline;
     font-size: 3em;
+}
+
+h2,h3,p {
+    color: darkblue;
 }
 
 .background {

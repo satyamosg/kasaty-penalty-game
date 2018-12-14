@@ -1,3 +1,8 @@
+* {
+    height: 100vh;
+    font-style: italic;
+}
+
 h1 {
     color: darkblue;
     text-decoration: underline;
@@ -11,10 +16,12 @@ h1 {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .container > * {
-    flex: 1;
+    flex-grow: 1;
+    flex-basis: 1;
 }
 
 img {
@@ -22,6 +29,6 @@ img {
 }
 
 button {
-    background-color: aqua;
+    background-color:lightgrey;
     justify-content: center;
 }

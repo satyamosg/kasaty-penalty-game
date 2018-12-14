@@ -1,0 +1,12 @@
+h1 {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.background {
+    background-color: lightblue;
+}
+
+img {
+    border: 1px solid;
+}
